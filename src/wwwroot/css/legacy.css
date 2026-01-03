@@ -1,0 +1,168 @@
+.legacy-ui {
+    background: #121212;
+    color: #e9e9e9;
+    font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+.legacy-ui a {
+    color: #93c5fd;
+}
+
+.legacy-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5rem 1.25rem 3rem;
+}
+
+.legacy-header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.legacy-header h1 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.legacy-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    font-size: 0.95rem;
+}
+
+.legacy-nav a {
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+
+.legacy-nav a:hover {
+    border-bottom-color: #93c5fd;
+}
+
+.legacy-section {
+    border: 1px solid #2a2a2a;
+    background: #181818;
+    padding: 1rem;
+    margin-bottom: 1.25rem;
+}
+
+.legacy-section h2 {
+    font-size: 1.2rem;
+    margin: 0 0 0.75rem;
+}
+
+.legacy-ui .nav,
+.legacy-ui .nav-tabs,
+.legacy-ui .swarm-gen-tab-subnav {
+    display: none !important;
+}
+
+.legacy-ui .tab-content,
+.legacy-ui .tab-pane {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    height: auto !important;
+}
+
+.legacy-ui .tab-pane {
+    padding: 0;
+}
+
+.legacy-ui .t2i-top-bar-container,
+.legacy-ui .t2i-top-bar,
+.legacy-ui .t2i-bottom-bar {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.legacy-ui .input-sidebar,
+.legacy-ui .main-image-area,
+.legacy-ui .current_image_batch,
+.legacy-ui .alt_prompt_region {
+    position: static;
+    width: 100%;
+    max-width: 100%;
+}
+
+.legacy-ui .splitter-bar,
+.legacy-ui .t2i-top-split-bar,
+.legacy-ui .t2i-mid-split-bar,
+.legacy-ui .t2i-top-2nd-split-bar {
+    display: none !important;
+}
+
+.legacy-ui .main-image-area,
+.legacy-ui .current_image_batch {
+    margin-top: 1rem;
+}
+
+.legacy-ui .current_image {
+    min-height: 320px;
+    border: 1px dashed #333;
+    background: #0f0f0f;
+    padding: 0.75rem;
+}
+
+.legacy-ui .current_image_batch_core,
+.legacy-ui .browser_container {
+    min-height: 160px;
+    max-height: none;
+}
+
+.legacy-ui .alt_prompt_region {
+    margin-top: 1rem;
+    border-top: 1px solid #2b2b2b;
+    padding-top: 1rem;
+}
+
+.legacy-ui .alt_prompt_main_line {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+}
+
+.legacy-ui .alt_prompt_textboxes textarea {
+    width: 100%;
+}
+
+.legacy-ui .bottom-info-bar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.35rem;
+    padding: 0.75rem 0;
+}
+
+.legacy-ui .bottom-info-bar-component {
+    margin: 0;
+}
+
+.legacy-ui #quicktools-button {
+    position: static;
+    margin-top: 0.75rem;
+}
+
+.legacy-ui .input_filter_container {
+    position: relative;
+    margin-bottom: 0.75rem;
+}
+
+.legacy-ui .main_inputs_filter {
+    width: 100%;
+}
+
+.legacy-ui .top-status-bar-wrapper {
+    position: static;
+}
+
+.legacy-ui .version-display {
+    position: static;
+    margin: 1rem auto 0;
+    text-align: center;
+}
