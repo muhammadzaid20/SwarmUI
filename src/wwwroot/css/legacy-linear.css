@@ -1,0 +1,66 @@
+body {
+    position: static;
+    height: auto;
+    min-height: 100vh;
+    overflow: auto;
+}
+
+.legacy-linear-layout {
+    padding: 1.5rem 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.legacy-linear-header {
+    border-bottom: 1px solid var(--light-border);
+    padding-bottom: 1rem;
+}
+
+.legacy-linear-header h1 {
+    margin: 0;
+    font-size: 1.75rem;
+}
+
+.legacy-linear-subtitle {
+    margin: 0.35rem 0 0;
+    color: var(--text-muted);
+}
+
+.legacy-linear-hidden-nav {
+    display: none;
+}
+
+#main_tab_content {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#main_tab_content > .tab-pane {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    height: auto !important;
+    overflow: visible !important;
+    line-height: 1.5;
+    background: var(--background);
+    border: 1px solid var(--light-border);
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+}
+
+.legacy-linear-section-title {
+    margin: 0 0 1rem;
+    font-size: 1.35rem;
+}
+
+.tab-pane-vw {
+    height: auto;
+    overflow: visible;
+}
+
+.tab-no-scroll {
+    overflow: visible;
+}
