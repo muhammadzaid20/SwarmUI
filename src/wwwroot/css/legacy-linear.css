@@ -1,0 +1,97 @@
+body {
+    background: #f6f6f6;
+    color: #1b1b1b;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.legacy-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+.legacy-header {
+    background: #ffffff;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.legacy-brand {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.legacy-title {
+    margin: 0;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.legacy-subtitle {
+    margin: 0;
+    color: #555;
+}
+
+.legacy-nav-wrapper {
+    margin-top: 1rem;
+}
+
+.legacy-nav {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 0;
+    margin: 0;
+}
+
+.legacy-nav-link {
+    display: inline-block;
+    padding: 0.35rem 0.7rem;
+    border: 1px solid #bdbdbd;
+    border-radius: 4px;
+    background: #f0f0f0;
+    color: #1b1b1b;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+.legacy-nav-link:hover {
+    background: #e3e3e3;
+}
+
+.legacy-main {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.legacy-section {
+    background: #ffffff;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    padding: 1.25rem;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.legacy-section-title {
+    margin: 0 0 1rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.tab-content,
+.tab-pane {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    height: auto !important;
+}
+
+.tab-pane {
+    line-height: inherit !important;
+}
